@@ -1,0 +1,449 @@
+* {
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+	background-color: lightseagreen;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+color:#ffffff;
+background-color:#40aa54;}
+
+
+.title {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 5px 0px;
+	height: 60px;
+	align-content: center;
+}
+
+.actionBtn {
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 30px;
+}
+
+/*Header*/
+header {
+     background-color: black;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    max-width: 1070px;
+    margin: auto;
+}
+
+.logo img {
+	width: 30%;
+}
+
+.logo {
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li a {
+    padding: 3px 15px;
+    margin: 0px 15px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all ease 0.3s;
+}
+
+.right-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    margin-bottom: 35px;
+    margin-left: 80px;
+}
+
+.right-nav a {
+    height: 300%;
+    width: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+}
+
+.right-nav .cart, .right-nav .profile {
+    background-color: #ecf7ee;
+    color: lightseagreen;
+}
+
+.menu li a:hover{
+    border-bottom: 2px solid lightseagreen;
+    text-decoration: none;
+}
+
+/*Admin dashboard*/
+.dashboard {
+	text-align: center;
+	align-content: center;
+	height: 200px;
+	margin: 20px 0px 50px;
+}
+
+.dashboard a button {
+	cursor: pointer;
+	height: 100%;
+	width: 25%;
+	margin: 0px 50px;
+	background-color: white;
+}
+
+/*Total customers*/
+.custTable {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.custTable tr {
+	height: 50px;
+	text-align: center;
+}
+
+.custTable thead tr {
+	background-color: #D5DBDB;
+}
+
+.custTable tbody tr {
+	background-color: white;
+}
+
+/*View product lists*/
+.categories {
+	margin: 10px auto; 
+	display: flex; 
+	flex-wrap: wrap; 
+	width: 70%;
+	padding-left: 65px;
+}
+
+.categories input {
+	border: 1px solid black;
+	border-radius: 20px; 
+	margin: 10px; 
+	text-align: center;
+	width: 290px;
+	height: 100px;
+	cursor: pointer;
+	background-color: white;
+}
+
+/*Manage products*/
+.addButton {
+	margin: 10px 75px;
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #AED6F1;
+	border: 2px solid black;
+}
+
+.manageProduct {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.manageProduct thead tr {
+	height: 50px;
+	background-color: #D5DBDB;
+}
+
+.manageProduct tbody tr {
+	height: 110px;
+	background-color: white;
+}
+
+.manageProduct tbody tr td a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.manageProduct tbody tr td input {
+	cursor: pointer;
+}
+
+/* Update and add product */
+.updateProduct {
+	margin: 10px 80px 50px;
+}
+
+.productTitle {
+	margin-bottom: 10px;
+}
+
+.updateProduct div {
+	margin-bottom: 15px;
+}
+
+.updateProduct label {
+	font-size: 20px;
+}
+
+.updateProduct input {
+	margin: 10px 0px;
+	border-radius: 10px;
+	height: 35px;
+	width: 90%;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.updateImage {
+	border: 1px solid black;
+	width: 20%;
+	text-align: center;
+}
+
+.updateProduct select {
+	width: 20%;
+	height: 35px;
+	margin-left: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.saveButton {
+	background-color: #2ECC71;
+	border: 1px solid black;
+}
+
+.priceError {
+	color: red;
+	margin-bottom: 10px;
+}
+
+/*Manage categories*/
+.categoryTable {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.categoryTable thead tr {
+	background-color: #D5DBDB;
+}
+
+.categoryTable tbody tr {
+	background-color: white;
+}
+
+.categoryTable tr {
+	height: 50px;
+}
+
+/* Manage orders */
+.orderTitle {
+	margin-left: 75px;
+	margin-bottom: 5px;
+}
+
+.orderTable {
+	text-align: center;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.orderTable thead tr {
+	background-color: #D5DBDB;
+}
+
+.orderTable tbody tr {
+	background-color: white;
+}
+
+.orderTable tr {
+	height: 50px;
+}
+
+.orderTable select, input {
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid black;
+	height: 30px;
+	background-color: #D6EAF8;
+}
+
+/*View product details*/
+.moreDetails {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.detailsTable {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.detailsTable thead tr {
+	background-color: #D5DBDB;
+	height: 50px;
+}
+
+.detailsTable tbody tr {
+	background-color: white;
+	height: 110px;
+
+}
+
+/*Making-Responsive*/
+.menu-icon, .menu-btn {
+    display: none;
+}
+
+@media(max-width:965px){
+    .navigation {
+        justify-content: space-between;
+        height: 65px;
+        padding: 35px 25px;
+    }
+
+    .logo {
+       width: 35%;
+       padding: 25px;     
+    }
+
+    .right-nav {
+       width: 10%;
+       padding: 20px;
+       margin-bottom: 32px;   
+    }
+
+    .navigation .menu {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        z-index: 100;
+        background-color: #ffffff;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid rgba(245,245,245);
+    }
+
+    .navigation .menu li {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navigation .menu li a {
+        color: black;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 30px 20px;
+        margin: 0px;
+        border: 1px solid rgba(248,247,247,0.5);
+    }
+
+    .navigation .menu li a:hover {
+        border-bottom: 2px solid #4d6caf;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navigation .menu-icon {
+        cursor: pointer;
+        float: right;
+        padding: 5px;
+        position: relative;
+        user-select: none;
+        z-index: 2;
+    }
+
+    .navigation .menu-icon .nav-icon {
+        background-color: #ffffff;
+        display: block;
+        height: 2px;
+        width: 25px;
+        position: relative;
+        transition: background 0.2s ease-out;
+    }
+
+    .navigation .menu-icon .nav-icon::before,
+    .navigation .menu-icon .nav-icon::after {
+        background-color: #ffffff;
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: all ease-out 0.2s;
+    }
+
+    .navigation .menu-icon .nav-icon::before {
+        top: 7px;
+    }
+
+    .navigation .menu-icon .nav-icon::after {
+        top: -7px;
+    }
+
+    .navigation .menu-btn:checked ~ .menu-icon .nav-icon::before {
+        transform: rotate(-45deg);
+        top: 0px;
+    }
+
+    .navigation .menu-btn:checked ~ .menu-icon .nav-icon::after {
+        transform: rotate(45deg);
+        top: 0px;
+    }
+
+    .navigation .menu-btn:checked ~ .menu-icon .nav-icon {
+        background-color: transparent;
+    } 
+
+    .navigation .menu-btn:checked ~ .menu {
+        display: block;
+    }   
+}

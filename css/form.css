@@ -1,0 +1,79 @@
+/* Registration and login forms */
+.form {
+	margin: 25px auto;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.login {
+	width: 420px;
+	height: 550px;
+}
+
+.login input {
+	width: 70%;
+}
+
+.registration {
+	width: 450px;
+}
+
+.registration input {
+	width: 300px;
+}
+
+.form h1 {
+	text-align: center;
+	margin-top: 20px;
+	background-color: white;
+	color: black;
+}
+
+.form label {
+	font-size: 18px;
+	margin: 10px 60px 10px;
+}
+
+.formInput {
+	height: 35px;
+	border-radius: 50px;
+	font-size: 15px;
+	text-align: center;
+	margin: 0px 60px;
+}
+
+.form div {
+	color: red;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.formButton {
+	text-align: center;
+	border-radius: 50px;
+	padding: 10px;
+	width: 100px;
+	height: 20px;
+	cursor: pointer;
+	padding-bottom: 32px;
+	background-color: #E5E7E9;
+	border: 1px solid black;
+}
+
+.loginBtn {
+	margin: 10px 140px;
+}
+
+.registerBtn {
+	margin: 20px 155px;
+}
+
+.form p {
+	text-align: center;
+}
+
+.form p a {
+	text-decoration: none;
+}
