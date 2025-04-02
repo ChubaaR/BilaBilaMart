@@ -1,7 +1,6 @@
 # Bila-Bila Mart E-Commerce Website
 
-![Bila Bila Mart](https://github.com/user-attachments/assets/e91192c3-d052-4453-bacd-79e7bbcb6e3c)
-
+![Bila Bila Mart](https://github.com/user-attachments/assets/bbdb9958-93eb-441d-8574-d044c35c2929)
 
 
 ## 📌 Project Overview
